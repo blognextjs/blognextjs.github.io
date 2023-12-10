@@ -33,6 +33,14 @@ export default function RootLayout({
         <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
         <link rel="manifest" href="/site.webmanifest"></link>
         <meta name="privacy-policy" content="/privacy.html" />
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-LCH96RCLYY"></script>
+        <script>
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+
+          gtag('config', 'G-LCH96RCLYY');
+        </script>
       </head>
 
       <body className={`bg-[#FCFCFC] dark:bg-black ${inter.className}`}>
